@@ -17,3 +17,11 @@ Health check:
 npm run build
 npm start
 ```
+
+## CI
+
+GitHub Actions workflow `CI` runs on push/PR for `dev` and `main` and executes:
+
+- `npm ci`
+- `npm run lint`
+- `npm run build`
